@@ -18,7 +18,7 @@ class CredentialSearch {
   
   DateTime revokedDate;
   
-  int credentialId;
+  String credentialId;
   
   CredentialSet credentialSet;
   
