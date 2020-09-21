@@ -1955,7 +1955,7 @@
              },
              "credential_id":{
                 "title":"Credential id",
-                "type":"id",
+                "type":"integer",
                 "readOnly":true
              }
           }

@@ -12,6 +12,7 @@ Name | Type | Description | Notes
 **type** | **String** |  | [optional] [readonly] 
 **format** | **String** |  | [optional] [readonly] 
 **value** | **String** |  | [optional] [readonly] 
+**credentialId** | **int** |  | [optional] [readonly] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
