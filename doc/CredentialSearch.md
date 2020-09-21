@@ -16,7 +16,6 @@ Name | Type | Description | Notes
 **latest** | **bool** |  | [optional] [readonly] 
 **revoked** | **bool** |  | [optional] [readonly] 
 **revokedDate** | [**DateTime**](DateTime.md) |  | [optional] [readonly] 
-**credentialId** | **String** |  | [optional] [readonly] 
 **credentialSet** | [**CredentialSet**](CredentialSet.md) |  | 
 **credentialType** | [**CredentialType**](CredentialType.md) |  | 
 **addresses** | [**List&lt;CredentialAddress&gt;**](CredentialAddress.md) |  | [default to const []]

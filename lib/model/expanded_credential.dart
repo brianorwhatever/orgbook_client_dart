@@ -16,7 +16,7 @@ class ExpandedCredential {
   
   DateTime revokedDate;
   
-  String credentialId;
+  int credentialId;
   
   CredentialType credentialType;
   

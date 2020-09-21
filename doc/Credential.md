@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **topic** | **int** |  | [optional] [readonly] 
 **credentialSet** | **int** |  | [optional] [readonly] 
 **credentialType** | **int** |  | [optional] [readonly] 
-**credentialId** | **String** |  | [optional] [readonly] 
+**credentialId** | **int** |  | [optional] [readonly] 
 **credentialDefId** | **String** |  | [optional] [readonly] 
 **cardinalityHash** | **String** |  | [optional] [readonly] 
 **effectiveDate** | [**DateTime**](DateTime.md) |  | [optional] [readonly] 

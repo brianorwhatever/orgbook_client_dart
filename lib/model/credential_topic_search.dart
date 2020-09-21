@@ -18,7 +18,7 @@ class CredentialTopicSearch {
   
   DateTime revokedDate;
   
-  String credentialId;
+  int credentialId;
   
   CredentialSet credentialSet;
   

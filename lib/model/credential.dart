@@ -7,7 +7,7 @@ class Credential {
 
   int credentialType;
 
-  String credentialId;
+  int credentialId;
 
   String credentialDefId;
 

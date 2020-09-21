@@ -18,7 +18,7 @@ class CredentialAddress {
   
   String civicAddress;
   
-  String credentialId;
+  int credentialId;
   
   String postalCode;
 

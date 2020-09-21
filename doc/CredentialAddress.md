@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 **addressee** | **String** |  | [optional] [readonly] 
 **id** | **int** |  | [optional] [readonly] 
 **civicAddress** | **String** |  | [optional] [readonly] 
-**credentialId** | **String** |  | [optional] [readonly] 
+**credentialId** | **int** |  | [optional] [readonly] 
 **postalCode** | **String** |  | [optional] [readonly] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)

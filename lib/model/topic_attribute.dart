@@ -10,7 +10,7 @@ class TopicAttribute {
   
   String value;
   
-  String credentialId;
+  int credentialId;
   
   String credentialTypeId;
 

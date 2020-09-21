@@ -18,8 +18,6 @@ class CredentialSearch {
   
   DateTime revokedDate;
   
-  String credentialId;
-  
   CredentialSet credentialSet;
   
   CredentialType credentialType;
@@ -43,7 +41,6 @@ class CredentialSearch {
     this.latest,
     this.revoked,
     this.revokedDate,
-    this.credentialId,
     @required this.credentialSet,
     @required this.credentialType,
     @required this.addresses,
@@ -55,7 +52,7 @@ class CredentialSearch {
 
   @override
   String toString() {
-    return 'CredentialSearch[id=$id, createTimestamp=$createTimestamp, updateTimestamp=$updateTimestamp, effectiveDate=$effectiveDate, inactive=$inactive, latest=$latest, revoked=$revoked, revokedDate=$revokedDate, credentialId=$credentialId, credentialSet=$credentialSet, credentialType=$credentialType, addresses=$addresses, attributes=$attributes, names=$names, topic=$topic, relatedTopics=$relatedTopics, ]';
+    return 'CredentialSearch[id=$id, createTimestamp=$createTimestamp, updateTimestamp=$updateTimestamp, effectiveDate=$effectiveDate, inactive=$inactive, latest=$latest, revoked=$revoked, revokedDate=$revokedDate, credentialSet=$credentialSet, credentialType=$credentialType, addresses=$addresses, attributes=$attributes, names=$names, topic=$topic, relatedTopics=$relatedTopics, ]';
   }
 
   CredentialSearch.fromJson(Map<String, dynamic> json) {
@@ -76,7 +73,6 @@ class CredentialSearch {
     revokedDate = (json['revoked_date'] == null) ?
       null :
       DateTime.parse(json['revoked_date']);
-    credentialId = json['credential_id'];
     credentialSet = (json['credential_set'] == null) ?
       null :
       CredentialSet.fromJson(json['credential_set']);
@@ -118,8 +114,6 @@ class CredentialSearch {
       json['revoked'] = revoked;
     if (revokedDate != null)
       json['revoked_date'] = revokedDate == null ? null : revokedDate.toUtc().toIso8601String();
-    if (credentialId != null)
-      json['credential_id'] = credentialId;
     if (credentialSet != null)
       json['credential_set'] = credentialSet;
     if (credentialType != null)

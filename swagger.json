@@ -1983,7 +1983,7 @@
              },
              "credential_id":{
                 "title":"Credential id",
-                "type":"string",
+                "type":"integer",
                 "readOnly":true,
                 "minLength":1
              },
@@ -2407,7 +2407,7 @@
              },
              "credential_id":{
                 "title":"Credential id",
-                "type":"string",
+                "type":"integer",
                 "readOnly":true
              },
              "postal_code":{
@@ -2528,7 +2528,7 @@
              },
              "credential_id":{
                 "title":"Credential id",
-                "type":"string",
+                "type":"itneger",
                 "readOnly":true,
                 "minLength":1
              },
@@ -2595,7 +2595,7 @@
              },
              "credential_id":{
                 "title":"Credential id",
-                "type":"string",
+                "type":"integer",
                 "readOnly":true
              },
              "credential_type_id":{
@@ -2728,7 +2728,7 @@
              },
              "credential_id":{
                 "title":"Credential id",
-                "type":"string",
+                "type":"integer",
                 "readOnly":true,
                 "minLength":1
              },
@@ -2907,7 +2907,7 @@
              },
              "credential_id":{
                 "title":"Credential id",
-                "type":"string",
+                "type":"integer",
                 "readOnly":true,
                 "minLength":1
              },
@@ -3057,7 +3057,7 @@
              },
              "credential_id":{
                 "title":"Credential id",
-                "type":"string",
+                "type":"integer",
                 "readOnly":true,
                 "minLength":1
              },
