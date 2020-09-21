@@ -9,20 +9,17 @@ class CredentialAttribute {
   String format;
   
   String value;
-  
-  String credentialId;
 
   CredentialAttribute({
     this.id,
     this.type,
     this.format,
     this.value,
-    this.credentialId,
   });
 
   @override
   String toString() {
-    return 'CredentialAttribute[id=$id, type=$type, format=$format, value=$value, credentialId=$credentialId, ]';
+    return 'CredentialAttribute[id=$id, type=$type, format=$format, value=$value, ]';
   }
 
   CredentialAttribute.fromJson(Map<String, dynamic> json) {
@@ -31,7 +28,6 @@ class CredentialAttribute {
     type = json['type'];
     format = json['format'];
     value = json['value'];
-    credentialId = json['credential_id'];
   }
 
   Map<String, dynamic> toJson() {
@@ -44,8 +40,6 @@ class CredentialAttribute {
       json['format'] = format;
     if (value != null)
       json['value'] = value;
-    if (credentialId != null)
-      json['credential_id'] = credentialId;
     return json;
   }
 

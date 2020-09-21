@@ -1,0 +1,1 @@
+$ java -cp C:\Users\brian\Tools\swagger-codegen\openapi-generator-cli-5.0.0-beta2.jar;C:\Users\brian\Tools\swagger-codegen\openapi-dart-generator-3.1.jar org.openapitools.codegen.OpenAPIGenerator generate -i swagger.json --additional-properties pubName=orgbookapi -g dart --enable-post-process-file
