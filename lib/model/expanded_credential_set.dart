@@ -10,7 +10,7 @@ class ExpandedCredentialSet {
   
   String latestCredentialId;
   
-  String topicId;
+  int topicId;
   
   DateTime firstEffectiveDate;
   

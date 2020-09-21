@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 **createTimestamp** | [**DateTime**](DateTime.md) |  | [optional] [readonly] 
 **updateTimestamp** | [**DateTime**](DateTime.md) |  | [optional] [readonly] 
 **latestCredentialId** | **String** |  | [optional] [readonly] 
-**topicId** | **String** |  | [optional] [readonly] 
+**topicId** | **int** |  | [optional] [readonly] 
 **firstEffectiveDate** | [**DateTime**](DateTime.md) |  | [optional] [readonly] 
 **lastEffectiveDate** | [**DateTime**](DateTime.md) |  | [optional] [readonly] 
 

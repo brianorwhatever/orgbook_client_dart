@@ -188,7 +188,7 @@ var inactive = inactive_example; // String | Show inactive credentials
 var latest = latest_example; // String | Show only latest credentials
 var revoked = revoked_example; // String | Show revoked credentials
 var category = category_example; // String | Filter by credential category. The category name and value should be joined by '::'
-var credentialTypeId = credentialTypeId_example; // String | Filter by Credential Type ID
+var credentialTypeId = 56; // int | Filter by Credential Type ID
 var topicCredentialTypeId = topicCredentialTypeId_example; // String | Filter by any Credential Type ID owned by the Topic
 var issuerId = issuerId_example; // String | Filter by Issuer ID
 var topicId = topicId_example; // String | Filter by Topic ID
@@ -211,7 +211,7 @@ Name | Type | Description  | Notes
  **latest** | **String**| Show only latest credentials | [optional] [default to &quot;true&quot;]
  **revoked** | **String**| Show revoked credentials | [optional] [default to &quot;false&quot;]
  **category** | **String**| Filter by credential category. The category name and value should be joined by &#39;::&#39; | [optional] 
- **credentialTypeId** | **String**| Filter by Credential Type ID | [optional] 
+ **credentialTypeId** | **int**| Filter by Credential Type ID | [optional] 
  **topicCredentialTypeId** | **String**| Filter by any Credential Type ID owned by the Topic | [optional] 
  **issuerId** | **String**| Filter by Issuer ID | [optional] 
  **topicId** | **String**| Filter by Topic ID | [optional] 

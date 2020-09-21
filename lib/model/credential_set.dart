@@ -10,7 +10,7 @@ class CredentialSet {
   
   String latestCredentialId;
   
-  String topicId;
+  int topicId;
   
   DateTime firstEffectiveDate;
   

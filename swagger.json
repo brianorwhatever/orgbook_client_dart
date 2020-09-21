@@ -888,7 +888,7 @@
                    "name":"credential_type_id",
                    "in":"query",
                    "description":"Filter by Credential Type ID",
-                   "type":"string"
+                   "type":"integer"
                 },
                 {
                    "name":"topic_credential_type_id",
@@ -2338,7 +2338,7 @@
              },
              "topic_id":{
                 "title":"Topic id",
-                "type":"string",
+                "type":"integer",
                 "readOnly":true
              },
              "first_effective_date":{
@@ -2980,7 +2980,7 @@
              },
              "topic_id":{
                 "title":"Topic id",
-                "type":"string",
+                "type":"integer",
                 "readOnly":true
              },
              "first_effective_date":{

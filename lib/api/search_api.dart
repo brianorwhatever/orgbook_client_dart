@@ -215,7 +215,7 @@ class SearchApi {
   ///  with HTTP info returned
   ///
   /// Provide credential search via Solr with both faceted (/facets) and unfaceted results
-  Future<Response> searchCredentialListWithHttpInfo({ String ordering, String name, String inactive, String latest, String revoked, String category, String credentialTypeId, String topicCredentialTypeId, String issuerId, String topicId }) async {
+  Future<Response> searchCredentialListWithHttpInfo({ String ordering, String name, String inactive, String latest, String revoked, String category, int credentialTypeId, String topicCredentialTypeId, String issuerId, String topicId }) async {
     Object postBody;
 
     // verify required params are set
@@ -297,7 +297,7 @@ class SearchApi {
   ///     Show revoked credentials
   ///String category :
   ///     Filter by credential category. The category name and value should be joined by '::'
-  ///String credentialTypeId :
+  ///int credentialTypeId :
   ///     Filter by Credential Type ID
   ///String topicCredentialTypeId :
   ///     Filter by any Credential Type ID owned by the Topic
@@ -306,7 +306,7 @@ class SearchApi {
   ///String topicId :
   ///     Filter by Topic ID
   /// Provide credential search via Solr with both faceted (/facets) and unfaceted results
-  Future<InlineResponse2005> searchCredentialList({ String ordering, String name, String inactive, String latest, String revoked, String category, String credentialTypeId, String topicCredentialTypeId, String issuerId, String topicId }) async {
+  Future<InlineResponse2005> searchCredentialList({ String ordering, String name, String inactive, String latest, String revoked, String category, int credentialTypeId, String topicCredentialTypeId, String issuerId, String topicId }) async {
     Response response = await searchCredentialListWithHttpInfo( ordering: ordering, name: name, inactive: inactive, latest: latest, revoked: revoked, category: category, credentialTypeId: credentialTypeId, topicCredentialTypeId: topicCredentialTypeId, issuerId: issuerId, topicId: topicId );
     if(response.statusCode >= 400) {
       throw ApiException(response.statusCode, _decodeBodyBytes(response));
