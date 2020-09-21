@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **id** | **int** |  | [optional] [readonly] 
 **createTimestamp** | [**DateTime**](DateTime.md) |  | [optional] [readonly] 
 **updateTimestamp** | [**DateTime**](DateTime.md) |  | [optional] [readonly] 
-**latestCredentialId** | **String** |  | [optional] [readonly] 
+**latestCredentialId** | **int** |  | [optional] [readonly] 
 **topicId** | **int** |  | [optional] [readonly] 
 **firstEffectiveDate** | [**DateTime**](DateTime.md) |  | [optional] [readonly] 
 **lastEffectiveDate** | [**DateTime**](DateTime.md) |  | [optional] [readonly] 

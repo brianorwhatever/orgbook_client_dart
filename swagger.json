@@ -2333,7 +2333,7 @@
              },
              "latest_credential_id":{
                 "title":"Latest credential id",
-                "type":"string",
+                "type":"integer",
                 "readOnly":true
              },
              "topic_id":{
@@ -2975,7 +2975,7 @@
              },
              "latest_credential_id":{
                 "title":"Latest credential id",
-                "type":"string",
+                "type":"integer",
                 "readOnly":true
              },
              "topic_id":{

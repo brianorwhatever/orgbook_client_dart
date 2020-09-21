@@ -8,7 +8,7 @@ class CredentialSet {
   
   DateTime updateTimestamp;
   
-  String latestCredentialId;
+  int latestCredentialId;
   
   int topicId;
   
