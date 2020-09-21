@@ -8,7 +8,7 @@ class CredentialName {
   
   String language;
   
-  String credentialId;
+  int credentialId;
   
   String type;
 

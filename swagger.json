@@ -2275,7 +2275,7 @@
              },
              "credential_id":{
                 "title":"Credential id",
-                "type":"string",
+                "type":"integer",
                 "readOnly":true
              },
              "type":{
@@ -2528,7 +2528,7 @@
              },
              "credential_id":{
                 "title":"Credential id",
-                "type":"itneger",
+                "type":"integer",
                 "readOnly":true,
                 "minLength":1
              },
